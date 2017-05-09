@@ -3,18 +3,18 @@ const Schema = mongoose.Schema;
 
 //create greetings Schema and model
 const RegistrationSchema = new Schema({
-  number:{
+  regNum:{
     type: String,
     required: [true, 'Name Field Is Required']
   },
 
-  area:{
-    type: String,
+  counter:{
+    type: Number,
   }
 });
 
 //unique index
-RegistrationSchema.index({number : 1}, {unique : true});
+RegistrationSchema.index({regNum : 1}, {unique : true});
 
 const Registration = mongoose.model('registration', RegistrationSchema);
 module.exports = Registration;

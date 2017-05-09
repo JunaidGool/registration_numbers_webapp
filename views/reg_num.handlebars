@@ -1,0 +1,22 @@
+
+<form id="registrationNum-form" method="post" action="/reg_num">
+<input type="text"  name="inputRegNum" placeholder="Please Enter Registration Number" required> </input><br><br><br><br>
+<button type="submit" value="submit"> ENTER </button>
+</form>
+
+<form id="filter-form" method="post" action="/reg_num_CA">
+<p class="selectLocation">Select Location</p>
+<input type="radio" id="cape-town" name="location" value="CA" checked="checked">Cape-Town (CA)<br>
+<input type="radio" id="belville" name="location" value="CY" >Belville (CY)<br>
+<input type="radio" id="stellies" name="location" value="CL" >Stellenbosch (CL)<br>
+<input type="radio" id="paarl" name="location" value="CJ" >Paarl (CJ)<br><br><br>
+<button class = "filter" type="submit" value="filter"> FILTER </button>
+</form>
+
+  <h1 class = "regPlt" > {{registrationOutput}} </h1>
+
+<ul >
+  {{#each regNumEntered}}
+  <li >{{this.regNum}} </li>
+  {{/each}}
+</ul>
