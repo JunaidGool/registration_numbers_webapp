@@ -1,22 +1,41 @@
 
+
+<div class="inputForm">
 <form id="registrationNum-form" method="post" action="/reg_num">
+<h1 class = "regPlt" > {{registrationOutput}} </h1>
 <input type="text"  name="inputRegNum" placeholder="Please Enter Registration Number" required> </input><br><br><br><br>
 <button type="submit" value="submit"> ENTER </button>
 </form>
+</div>
 
-<form id="filter-form" method="post" action="/reg_num_CA">
+
+<div class="filterForm">
+
+<form id="filter-form" method="post" action="/filterReg">
+  <div class="inputPos">
 <p class="selectLocation">Select Location</p>
 <input type="radio" id="cape-town" name="location" value="CA" checked="checked">Cape-Town (CA)<br>
 <input type="radio" id="belville" name="location" value="CY" >Belville (CY)<br>
 <input type="radio" id="stellies" name="location" value="CL" >Stellenbosch (CL)<br>
 <input type="radio" id="paarl" name="location" value="CJ" >Paarl (CJ)<br><br><br>
 <button class = "filter" type="submit" value="filter"> FILTER </button>
+</div>
+
 </form>
 
-  <h1 class = "regPlt" > {{registrationOutput}} </h1>
 
-<ul >
+</div>
+
+
+{{messages.error}}
+
+
+  <h1 class = "dupMessage" > {{duplicationOutput}} </h1>
+
+<div class="numList">
+<ul>
   {{#each regNumEntered}}
   <li >{{this.regNum}} </li>
   {{/each}}
 </ul>
+<div>

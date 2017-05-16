@@ -11,6 +11,7 @@ const RegistrationSchema = new Schema({
   counter:{
     type: Number,
   }
+
 });
 
 //unique index
