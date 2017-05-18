@@ -7,12 +7,12 @@ const mongoose = require ('mongoose');
 
 router.get('/', function(req,res){
 
-  res.redirect('/home');
+  res.redirect('/reg_num');
 });
 
 router.get('/home', function(req,res){
 
-  res.render('home');
+    res.redirect('/reg_num');
 });
 
 
