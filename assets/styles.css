@@ -102,9 +102,9 @@ button.false{display: none;}
   border:5px solid black;
   width: 250px;
   height: 200px;
-  position: absolute;
-  bottom: 550px;
-  left: 250px;
+  position: relative;
+  /*bottom: 300px;
+  left: 250px;*/
 
 }
 
@@ -124,6 +124,6 @@ button.false{display: none;}
 
 .numList{
   position: relative;
-  bottom:0px;
-  left:600px;
+  /*bottom:150px;
+  left:450px;*/
 }
