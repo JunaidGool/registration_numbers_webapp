@@ -13,7 +13,7 @@ const app = express();
 //connect to MongoDB
 // mongoose.connect('mongodb://localhost/greetingsdatabase');
 
-const mongoURL = process.env.MONGO_DB_URL || "mongodb://localhost/regDatabase";
+const mongoURL = process.env.MONGO_DB_URL || "mongodb://localhost/test";
 mongoose.connect(mongoURL);
 mongoose.Promise = global.Promise;
 
