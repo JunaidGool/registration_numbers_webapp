@@ -47,12 +47,14 @@
 ### Starting the APP
 1. Open mongoDB and get your server started.<br/>
 2. In the command line, navigate to the project working folder.Once you are in the appropriate folder
-   input this command<br/>
+   input this command
    ```javascript 
    nodemon 
    ```
    You should now see the following message displayed<br/>
-    "Now listening to Port Number: 9001 "<br/>
+   ```javascript 
+    "Now listening to Port Number: 9001 "
+    ```
     The Api is now succesfully running !! <br/>
     You are now able to add, view and update stock using postman and have the option to view your data within your database using Robomongo.
      
