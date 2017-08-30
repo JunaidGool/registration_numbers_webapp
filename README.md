@@ -68,6 +68,18 @@ POST | /reg_numbers	 	  | Submits all the entered registration numbers to the da
 GET | /filterReg	 	  | Retrieves the filtered results of the registration numbers from the database.
 POST | /filterReg	 	  | Submits the requested registration area to be filtered.
 
+### Navigating the APP
+1. In the navigation bar, please enter 
+   ```javascript 
+   http://localhost:9001
+   ```
+   You will immediately be re-directed to 
+   ```javascript 
+   http://localhost:9001/reg_num
+   ```
+   This page allows you to enter your registration number and displays the registration number entered on the screen.
+   
+
 
     
     
