@@ -1,5 +1,6 @@
 # registration_numbers_webapp
 
+![Alt text](https://github.com/JunaidGool/registration_numbers_webapp/blob/master/read_me_images/regNumLanding.GIF)
 
 ### A Registration App that :
 * Adds a registration number for specific areas, namely Cape-Town, Belville, Stellenbosch, Paarl.
