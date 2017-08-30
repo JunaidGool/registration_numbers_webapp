@@ -79,6 +79,8 @@ POST | /filterReg	 	  | Submits the requested registration area to be filtered.
    ```javascript 
    http://localhost:9001/reg_num
    ```
+   ![Alt text](https://github.com/JunaidGool/registration_numbers_webapp/blob/master/read_me_images/regNumInputFilter.GIF)
+   
 2. This page allows you to enter your registration numbers and displays the registration numbers entered on the screen. 
 Once you have entered your registration number and clicked "ENTER", the registratraion number will appear on the screen.<br/>
 
