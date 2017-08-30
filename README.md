@@ -90,3 +90,6 @@ Once you have entered your registration number and clicked "ENTER", the registra
    http://localhost:9001/filterReg
    ```
    This page will display all the registrations for the selected area.
+   
+   ![Alt text](https://github.com/JunaidGool/registration_numbers_webapp/blob/master/read_me_images/regNumFilter.GIF)
+   
