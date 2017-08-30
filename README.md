@@ -2,6 +2,7 @@
 
 ### A Registration App that :
 * Adds a registration number for specific areas, namely Cape-Town, Belville, Stellenbosch, Paarl.
+* Displays the entered registration numbers.
 * Filter for all registrations for a specific area and display
 
 ### Getting Started
@@ -57,7 +58,17 @@
     ```
     The Api is now succesfully running !! <br/>
     You are now able to add, view and update stock using postman and have the option to view your data within your database using Robomongo.
-     
+    
+### Understanding the Routes
+
+HTTP Method | Route Name | Description
+------------ | ------------- | ---------
+GET | /reg_numbers	 	  | Retrieves all the entered registration numbers from the database.
+POST | /reg_numbers	 	  | Submits all the entered registration numbers to the database.
+GET | /filterReg	 	  | Retrieves the filtered results of the registration numbers from the database.
+POST | /filterReg	 	  | Submits the requested registration area to be filtered.
+
+
     
     
     
