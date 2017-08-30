@@ -77,30 +77,12 @@ POST | /filterReg	 	  | Submits the requested registration area to be filtered.
    ```javascript 
    http://localhost:9001/reg_num
    ```
-   This page allows you to enter your registration number and displays the registration number entered on the screen.
-   
+2. This page allows you to enter your registration numbers and displays the registration numbers entered on the screen. 
+Once you have entered your registration number and clicked "ENTER", the registratraion number will appear on the screen.<br/>
 
-
-    
-    
-    
-
-
-
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+3. You will also have various options to filter you registration numbers for specific areas.<br/>
+   Select the area you would like to filter, click on "FILTER" , you will be redirected to 
+   ```javascript
+   http://localhost:9001/filterReg
+   ```
+   This page will display all the registrations for the selected area.
