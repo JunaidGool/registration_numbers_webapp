@@ -48,7 +48,7 @@
    This will install all the required dependencies.<br/>
    
 ### Starting the APP
-1. Open mongoDB and get your server started.<br/>
+1. Open mongoDB and get your server started, by following the steps below.<br/>
 2. In the command line, navigate to the project working folder.Once you are in the appropriate folder
    input this command
    ```javascript 
@@ -58,7 +58,7 @@
    ```javascript 
     "Now listening to Port Number: 9001 "
     ```
-    The Api is now succesfully running !! <br/>
+    The app is now succesfully running !! <br/>
     You are now able to add, view and update stock using postman and have the option to view your data within your database using Robomongo.
     
 ### Understanding the Routes
